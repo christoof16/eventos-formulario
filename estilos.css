@@ -1,0 +1,24 @@
+.grid-container{
+    display: grid;
+    grid-template-rows: 50px;
+    grid-template-columns: repeat(4,minmax(min-content,max-content));
+    grid-auto-rows: 50px;
+    font-family: sans-serif;
+}
+
+.grid-container .grid-item{
+    padding: 10px;
+    border: solid 2px #e42;
+    margin: 5px;
+}
+
+.boton-confirmar{
+    padding: 9px 40px;
+    background: #5ea;
+    color: #fff;
+    border: none;
+    margin-left: 190px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
